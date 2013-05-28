@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+    <layout version="0.1.0">
+            <brands_index_index>
+              <reference name="root">
+               <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
+              </reference>
+            <reference name="content">
+                 <block type="brands/brands" name="brands" template="brands/brands.phtml" output="toHtml" before="-" >
+           <!--           <action method="getBrands"><layout>one_column</layout><count>5</count></action>-->
+                 </block>
+            </reference>  
+         
+                 
+        </brands_index_index>
+    </layout>
